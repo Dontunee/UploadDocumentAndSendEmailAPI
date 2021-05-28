@@ -1,0 +1,8 @@
+===> 2021-05-28 14:40:48.087 +01:00 [Information] Configured endpoint "event-listener", Consumer: "ZedCrest.Api.Handler.FileSubmittedHandler"
+===> 2021-05-28 14:40:49.509 +01:00 [Information] Now listening on: "https://localhost:5001"
+===> 2021-05-28 14:40:49.511 +01:00 [Information] Now listening on: "http://localhost:5000"
+===> 2021-05-28 14:40:49.514 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+===> 2021-05-28 14:40:49.516 +01:00 [Information] Hosting environment: "Development"
+===> 2021-05-28 14:40:49.518 +01:00 [Information] Content root path: "C:\Users\afolabiba\source\repos\ZedCrest\ZedCrest.Api"
+===> 2021-05-28 14:40:52.664 +01:00 [Information] Application is shutting down...
+===> 2021-05-28 14:40:52.763 +01:00 [Warning] Failed to stop bus: rabbitmq://18.217.177.107/ABPAPPDEVW107_ZedCrestApi_bus_w6dyyy8egd1fjo8xbdc1dztury?temporary=true ("Not Started")

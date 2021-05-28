@@ -1,0 +1,33 @@
+===> 2021-05-28 14:48:17.772 +01:00 [Information] Configured endpoint "event-listener", Consumer: "ZedCrest.Api.Handler.FileSubmittedHandler"
+===> 2021-05-28 14:48:20.166 +01:00 [Information] Now listening on: "https://localhost:5001"
+===> 2021-05-28 14:48:20.168 +01:00 [Information] Now listening on: "http://localhost:5000"
+===> 2021-05-28 14:48:20.170 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+===> 2021-05-28 14:48:20.171 +01:00 [Information] Hosting environment: "Development"
+===> 2021-05-28 14:48:20.172 +01:00 [Information] Content root path: "C:\Users\afolabiba\source\repos\ZedCrest\ZedCrest.Api"
+===> 2021-05-28 14:48:22.320 +01:00 [Information] Bus started: rabbitmq://18.217.177.107/
+===> 2021-05-28 14:48:22.467 +01:00 [Information] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+===> 2021-05-28 14:48:22.627 +01:00 [Information] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 162.1262ms
+===> 2021-05-28 14:48:24.348 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - -
+===> 2021-05-28 14:48:24.399 +01:00 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js.map" responded 404 in 42.6362 ms
+===> 2021-05-28 14:48:24.409 +01:00 [Information] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map - - - 404 0 - 60.9075ms
+===> 2021-05-28 14:48:24.479 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - -
+===> 2021-05-28 14:48:24.489 +01:00 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js.map" responded 404 in 3.3095 ms
+===> 2021-05-28 14:48:24.491 +01:00 [Information] Request finished HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 12.5232ms
+===> 2021-05-28 14:48:24.549 +01:00 [Information] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+===> 2021-05-28 14:48:24.671 +01:00 [Information] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.2020ms
+===> 2021-05-28 14:48:48.474 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:5001/upload_file multipart/form-data;+boundary=--------------------------538513715282123157247325 769719410
+===> 2021-05-28 14:48:48.491 +01:00 [Information] Executing endpoint '"ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)"'
+===> 2021-05-28 14:48:48.535 +01:00 [Information] Route matched with "{action = \"UploadFile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFileAsync(ZedCrest.Api.Models.Person, Microsoft.AspNetCore.Http.IFormFileCollection)" on controller "ZedCrest.Api.Controllers.UserController" ("ZedCrest.Api").
+===> 2021-05-28 14:48:50.696 +01:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+===> 2021-05-28 14:48:50.858 +01:00 [Information] Executed action "ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)" in 2299.7046ms
+===> 2021-05-28 14:48:50.861 +01:00 [Information] Executed endpoint '"ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)"'
+===> 2021-05-28 14:48:50.863 +01:00 [Information] HTTP "POST" "/upload_file" responded 400 in 2386.6000 ms
+===> 2021-05-28 14:48:50.870 +01:00 [Information] Request finished HTTP/1.1 POST https://localhost:5001/upload_file multipart/form-data;+boundary=--------------------------538513715282123157247325 769719410 - 400 - application/problem+json;+charset=utf-8 2395.9109ms
+===> 2021-05-28 14:50:11.300 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:5001/upload_file multipart/form-data;+boundary=--------------------------487167773300052264413761 360852204
+===> 2021-05-28 14:50:11.309 +01:00 [Information] Executing endpoint '"ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)"'
+===> 2021-05-28 14:50:11.310 +01:00 [Information] Route matched with "{action = \"UploadFile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFileAsync(ZedCrest.Api.Models.Person, Microsoft.AspNetCore.Http.IFormFileCollection)" on controller "ZedCrest.Api.Controllers.UserController" ("ZedCrest.Api").
+===> 2021-05-28 14:50:11.701 +01:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+===> 2021-05-28 14:50:11.708 +01:00 [Information] Executed action "ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)" in 385.1043ms
+===> 2021-05-28 14:50:11.710 +01:00 [Information] Executed endpoint '"ZedCrest.Api.Controllers.UserController.UploadFileAsync (ZedCrest.Api)"'
+===> 2021-05-28 14:50:11.711 +01:00 [Information] HTTP "POST" "/upload_file" responded 400 in 404.7019 ms
+===> 2021-05-28 14:50:11.718 +01:00 [Information] Request finished HTTP/1.1 POST https://localhost:5001/upload_file multipart/form-data;+boundary=--------------------------487167773300052264413761 360852204 - 400 - application/problem+json;+charset=utf-8 417.9884ms
